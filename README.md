@@ -137,4 +137,3 @@
 |  min_phase_A_voltage  | Feature  |  Discrete  |  |
 |  min_phase_B_voltage  | Feature  |  Discrete  |  |
 |  min_phase_C_voltage  | Feature  |  Discrete  |  |
-
