@@ -139,3 +139,5 @@
 |  min_phase_A_voltage  | Feature  |  Discrete  |  |
 |  min_phase_B_voltage  | Feature  |  Discrete  |  |
 |  min_phase_C_voltage  | Feature  |  Discrete  |  |
+
+The FADbF dataset companion the paper entitled "Fault Distance Estimation for Transmission Lines with Dynamic Regressor Selection", published in Journal_XXX, vol. XX, no. XX, pp. XX–XX, year 202X, doi: XXXXXXXXX.
