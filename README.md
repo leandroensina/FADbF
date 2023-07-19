@@ -1,4 +1,4 @@
-# FADbF
+# Fault Analysis Database with Features (FADbF)
 
 **Associated Tasks**: classification and regression
 
@@ -6,11 +6,13 @@
 
 **Attributes**: 128, including the two possible targets
 
+**Additional Information**: this database comprises several attributes extracted from time series of fault simulations of a transmission line with 500 kV, 414 km, and 60 Hz. In total, we extracted 21 features separately for each of the three phases for both voltage and current waveforms along two post-fault cycles from a single terminal, resulting in 126 attributes (21 * 3 * 2 = 126) in addition to the two possible targets, i.e., fault type (classification task) and fault location (regression task). If desired, the fault type can also be used as a feature for the fault location task.
+
 **Feature list**:
 |  Feature name  |  Role |  Type  |  Description  |
 |  ------------  |  ---- |  ----  |  -----------  |
-|  fault_location  | Target  |  Discrete  |  |
 |  fault_type  | Target  |  Categorical  |  |
+|  fault_location  | Target  |  Discrete  |  |
 |  energy_phase_A_current  | Feature  |  Discrete  |  |
 |  energy_phase_B_current  | Feature  |  Discrete  |  |
 |  energy_phase_C_current  | Feature  |  Discrete  |  |
