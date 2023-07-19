@@ -74,63 +74,67 @@
 |  min_phase_A_current  | Feature  |  Discrete  |  |
 |  min_phase_B_current  | Feature  |  Discrete  |  |
 |  min_phase_C_current  | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
-|    | Feature  |  Discrete  |  |
+|  energy_phase_A_voltage  | Feature  |  Discrete  |  |
+|  energy_phase_B_voltage  | Feature  |  Discrete  |  |
+|  energy_phase_C_voltage  | Feature  |  Discrete  |  |
+|  distance_phase_A_voltage  | Feature  |  Discrete  |  |
+|  distance_phase_B_voltage  | Feature  |  Discrete  |  |
+|  distance_phase_C_voltage  | Feature  |  Discrete  |  |
+|  rms_phase_A_voltage  | Feature  |  Discrete  |  |
+|  rms_phase_B_voltage  | Feature  |  Discrete  |  |
+|  rms_phase_C_voltage  | Feature  |  Discrete  |  |
+|  kurtosis_phase_A_voltage  | Feature  |  Discrete  |  |
+|  kurtosis_phase_B_voltage  | Feature  |  Discrete  |  |
+|  kurtosis_phase_C_voltage  | Feature  |  Discrete  |  |
+|  skewness_phase_A_voltage  | Feature  |  Discrete  |  |
+|  skewness_phase_B_voltage  | Feature  |  Discrete  |  |
+|  skewness_phase_C_voltage  | Feature  |  Discrete  |  |
+|  maxFrequency_phase_A_voltage  | Feature  |  Discrete  |  |
+|  maxFrequency_phase_B_voltage  | Feature  |  Discrete  |  |
+|  maxFrequency_phase_C_voltage  | Feature  |  Discrete  |  |
+|  powerBandwidth_phase_A_voltage  | Feature  |  Discrete  |  |
+|  powerBandwidth_phase_B_voltage  | Feature  |  Discrete  |  |
+|  powerBandwidth_phase_C_voltage  | Feature  |  Discrete  |  |
+|  auc_phase_A_voltage  | Feature  |  Discrete  |  |
+|  auc_phase_B_voltage  | Feature  |  Discrete  |  |
+|  auc_phase_C_voltage  | Feature  |  Discrete  |  |
+|  pk_pk_distance_phase_A_voltage  | Feature  |  Discrete  |  |
+|  pk_pk_distance_phase_B_voltage  | Feature  |  Discrete  |  |
+|  pk_pk_distance_phase_C_voltage  | Feature  |  Discrete  |  |
+|  slope_phase_A_voltage  | Feature  |  Discrete  |  |
+|  slope_phase_B_voltage  | Feature  |  Discrete  |  |
+|  slope_phase_C_voltage  | Feature  |  Discrete  |  |
+|  shannon_entropy_phase_A_voltage  | Feature  |  Discrete  |  |
+|  shannon_entropy_phase_B_voltage  | Feature  |  Discrete  |  |
+|  shannon_entropy_phase_C_voltage  | Feature  |  Discrete  |  |
+|  mean_phase_A_voltage  | Feature  |  Discrete  |  |
+|  mean_phase_B_voltage  | Feature  |  Discrete  |  |
+|  mean_phase_C_voltage  | Feature  |  Discrete  |  |
+|  geometric_mean_phase_A_voltage  | Feature  |  Discrete  |  |
+|  geometric_mean_phase_B_voltage  | Feature  |  Discrete  |  |
+|  geometric_mean_phase_C_voltage  | Feature  |  Discrete  |  |
+|  harmonic_mean_phase_A_voltage  | Feature  |  Discrete  |  |
+|  harmonic_mean_phase_B_voltage  | Feature  |  Discrete  |  |
+|  harmonic_mean_phase_C_voltage  | Feature  |  Discrete  |  |
+|  variance_phase_A_voltage  | Feature  |  Discrete  |  |
+|  variance_phase_B_voltage  | Feature  |  Discrete  |  |
+|  variance_phase_C_voltage  | Feature  |  Discrete  |  |
+|  stdev_phase_A_voltage  | Feature  |  Discrete  |  |
+|  stdev_phase_B_voltage  | Feature  |  Discrete  |  |
+|  stdev_phase_C_voltage  | Feature  |  Discrete  |  |
+|  median_phase_A_voltage  | Feature  |  Discrete  |  |
+|  median_phase_B_voltage  | Feature  |  Discrete  |  |
+|  median_phase_C_voltage  | Feature  |  Discrete  |  |
+|  covariance_phase_A_B_voltage  | Feature  |  Discrete  |  |
+|  covariance_phase_A_C_voltage  | Feature  |  Discrete  |  |
+|  covariance_phase_B_C_voltage  | Feature  |  Discrete  |  |
+|  correlation_phase_A_B_voltage  | Feature  |  Discrete  |  |
+|  correlation_phase_A_C_voltage  | Feature  |  Discrete  |  |
+|  correlation_phase_B_C_voltage  | Feature  |  Discrete  |  |
+|  max_phase_A_voltage  | Feature  |  Discrete  |  |
+|  max_phase_B_voltage  | Feature  |  Discrete  |  |
+|  max_phase_C_voltage  | Feature  |  Discrete  |  |
+|  min_phase_A_voltage  | Feature  |  Discrete  |  |
+|  min_phase_B_voltage  | Feature  |  Discrete  |  |
+|  min_phase_C_voltage  | Feature  |  Discrete  |  |
 
