@@ -8,7 +8,7 @@
 
 **Additional Information**: this database comprises several attributes extracted from time series of fault simulations of a transmission line with 500 kV, 414 km, and 60 Hz. In total, we extracted 21 features separately for each of the three phases for both voltage and current waveforms along two post-fault cycles from a single terminal, resulting in 126 attributes (21 * 3 * 2 = 126) in addition to the two possible targets, i.e., fault type (classification task) and fault location (regression task). If desired, the fault type can also be used as a feature for the fault location task.
 
-**Feature list**:
+**Attribute list**:
 |  Feature name  |  Role |  Type  |  Description  |
 |  ------------  |  ---- |  ----  |  -----------  |
 |  fault_type  | Target  |  Categorical  |  |
