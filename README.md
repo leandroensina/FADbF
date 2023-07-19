@@ -1,8 +1,16 @@
 # FADbF
 
-Associated Tasks: classification and regression
+**Associated Tasks**: classification and regression
 
-Feature list:
+**Instances**: 168,000
+
+**Attributes**: 128, including the two possible targets
+
+**Feature list**:
+|  Feature name  |  Role |  Type  |  Description  |
+|  ------------  |  ---- |  ----  |  -----------  |
+|  stdev_phase_A_current  | Feature  |  Discrete  |  |
+
 - stdev_phase_A_current
 - stdev_phase_C_current
 - stdev_phase_B_current
