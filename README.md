@@ -10,7 +10,7 @@
 |  Feature name  |  Role |  Type  |  Description  |
 |  ------------  |  ---- |  ----  |  -----------  |
 |  fault_location  | Target  |  Discrete  |  |
-|  fault_type  | Feature or Target  |  Categorical  |  |
+|  fault_type  | Target  |  Categorical  |  |
 |  energy_phase_A_current  | Feature  |  Discrete  |  |
 |  energy_phase_B_current  | Feature  |  Discrete  |  |
 |  energy_phase_C_current  | Feature  |  Discrete  |  |
