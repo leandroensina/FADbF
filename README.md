@@ -12,7 +12,7 @@
 |  Feature name  |  Role |  Type  |  Description  |
 |  ------------  |  ---- |  ----  |  -----------  |
 |  fault_type  | Target  |  Categorical  | AG, BG, CG, AB, AC, BC, ABG, ACG, BCG, ABC |
-|  fault_location  | Target  |  Discrete  | Values varying from 1 to 100, representing the percentage of the transmission line length where the fault occurred |
+|  fault_location  | Target  |  Discrete  | Values varying from 4.14 km to 414 km, representing the positions where the fault occurred in the transmission line |
 |  energy_phase_A_current  | Feature  |  Discrete  |  |
 |  energy_phase_B_current  | Feature  |  Discrete  |  |
 |  energy_phase_C_current  | Feature  |  Discrete  |  |
