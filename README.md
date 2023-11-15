@@ -1,6 +1,6 @@
 # Fault Analysis Database with Features (FADbF)
 
-The FADbF dataset companions the paper entitled "Fault Distance Estimation for Transmission Lines with Dynamic Regressor Selection", published in Neural Computing and Applications, doi: [10.1007/s00521-023-09155-y](https://doi.org/10.1007/s00521-023-09155-y). More information about the dataset can be found in this reference.
+The FADbF dataset companions the paper entitled "Fault Distance Estimation for Transmission Lines with Dynamic Regressor Selection", published in * *Neural Computing and Applications* *, **doi**: [10.1007/s00521-023-09155-y](https://doi.org/10.1007/s00521-023-09155-y). More information about the dataset can be found in this reference.
 
 **Associated Tasks**: classification and regression
 
